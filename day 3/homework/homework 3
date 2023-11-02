@@ -1,0 +1,20 @@
+name = input("what is your name?\n")
+print("hello, %s" %name,)
+lastname = input("what is your lastname?\n")
+age = input ("how old are you?\n")
+print("welcome",   name  +"/" + lastname  +"/" +age   )
+
+age=int(input("how old are you?"))
+print(age+25)
+
+
+name = input("luka")
+last_name = input("kechexmadze")
+age = input (17)
+
+print("name + age")
+
+seats = 10
+while seats >0:
+    print(str(seats)+ "tickets left")
+    seats = seats - 1
